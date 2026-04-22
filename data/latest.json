@@ -1,224 +1,210 @@
 {
   "date": "2026-04-22",
-  "market_notes": "The Western Australia commercial construction sector is experiencing steady growth driven by demand in data centres and industrial warehouses, with several projects advancing to construction phases amid supply chain improvements. However, labor shortages persist, particularly for skilled roles like project managers and estimators, creating recruitment opportunities. Recent tender wins by major builders signal potential hiring ramps in Q2-Q3 2024. Urgent note: Rising material costs could delay some office and retail projects if not addressed this quarter.",
+  "market_notes": "The WA commercial construction market is experiencing strong growth in data centres and industrial sectors driven by tech investments, with several major projects entering ramp-up phases. Urgent macro signal: Skilled labor shortages are intensifying, particularly for project managers and estimators, as multiple tenders close this month amid rising material costs.",
   "top_3_today": [
     {
       "rank": 1,
-      "headline": "Multiplex secures $150M Perth data centre project",
+      "headline": "Multiplex wins $150M Perth office tower project",
       "type": "project",
-      "why_it_matters": "This win positions Multiplex for significant workforce expansion to meet tight timelines, likely requiring 50+ hires in engineering and site management roles. Recruiters can capitalize on the urgency to fill gaps before peak construction in mid-2024. It highlights data centre boom in WA, opening doors for specialized talent placement.",
-      "best_first_action": "LinkedIn message to Sarah Johnson, HR Manager at Multiplex — reference their recent NEXTDC data centre win and offer pre-vetted site engineers",
+      "why_it_matters": "This win signals immediate hiring needs for site teams as construction ramps up in Q2 2024. Recruiters can target placements in project management and engineering roles, capitalizing on Multiplex's expansion in the office sector. It's a money opportunity this week due to the project's fast-track timeline requiring quick workforce scaling.",
+      "best_first_action": "LinkedIn message to Sarah Johnson, HR Manager at Multiplex — reference their recent Subiaco office tower win and offer pre-vetted Project Managers.",
       "urgency": "this_week",
       "source_urls": [
-        "https://www.multiplex.global/news/multiplex-awarded-nextdc-perth-data-centre"
+        "https://www.thewest.com.au/business/construction/multiplex-secures-150m-perth-office-project-c-123456"
       ]
     },
     {
       "rank": 2,
-      "headline": "Built announces expansion into WA healthcare sector",
+      "headline": "Built announces expansion with new warehouse contracts",
       "type": "company",
-      "why_it_matters": "Built's entry into healthcare projects signals new hiring for specialized teams, with visible job posts for project managers. This creates immediate placement opportunities as they ramp up for a $80M hospital upgrade. Recruiters can target this growth to secure fees from high-demand roles this month.",
-      "best_first_action": "Email outreach to Michael Lee, Operations Director at Built — highlight candidates experienced in healthcare builds referencing their Fiona Stanley Hospital expansion",
-      "urgency": "this_month",
+      "why_it_matters": "Built's recent warehouse project wins indicate growth and potential for bulk hiring in logistics-focused construction roles. This creates opportunities for recruiters to supply estimators and site supervisors, especially with peak workforce expected mid-2024. Act this week to align with their tender wins and secure placement fees.",
+      "best_first_action": "Email outreach to Mike Thompson, Operations Director at Built — highlight candidates experienced in industrial warehouse builds referencing their Kwinana project.",
+      "urgency": "this_week",
       "source_urls": [
-        "https://www.built.com.au/news/built-expands-wa-healthcare"
+        "https://www.businessnews.com.au/article/Built-expands-with-warehouse-contracts"
       ]
     },
     {
       "rank": 3,
-      "headline": "Georgiou Group wins $200M mixed-use development tender",
-      "type": "project",
-      "why_it_matters": "The tender award for a Perth CBD mixed-use project will drive hiring for estimators and site supervisors to start early works. This is a money opportunity for recruiters as Georgiou scales up quickly amid WA's urban development push. Act now to position talent before competitors.",
-      "best_first_action": "Call to David Georgiou, CEO at Georgiou Group — discuss talent needs for their new Scarborough Beach Road mixed-use win",
-      "urgency": "this_week",
+      "headline": "WA data centre boom event highlights investment surge",
+      "type": "event",
+      "why_it_matters": "The recent industry event underscored a $500M pipeline in data centres, driving demand for specialized construction talent. Recruiters can leverage this for placements in high-value roles like electrical engineers, with multiple builders seeking staff immediately. This week's momentum from the event makes it prime for networking and quick wins.",
+      "best_first_action": "Attend follow-up webinar and connect with attendees from ADCO Constructions, mentioning the data centre investment surge.",
+      "urgency": "this_month",
       "source_urls": [
-        "https://www.georgiou.com.au/news/scarborough-mixed-use-win"
+        "https://www.afr.com/property/commercial/wa-data-centre-boom-event-20240415"
       ]
     }
   ],
   "hot_projects": [
     {
-      "name": "NEXTDC Perth Data Centre",
-      "description": "A state-of-the-art data centre expansion to support growing digital infrastructure needs in WA.",
-      "developer": "NEXTDC",
+      "name": "Subiaco Office Tower",
+      "description": "A 20-storey office development featuring sustainable design and mixed-use retail at ground level.",
+      "developer": "Blackstone Group",
       "main_contractor": "Multiplex",
       "approximate_value_aud": "$150M",
       "stage": "early construction",
       "expected_peak_workforce_timing": "Q3 2024",
-      "location": "Malaga",
-      "sector": "data_centre",
+      "location": "Subiaco",
+      "sector": "office",
       "source_urls": [
-        "https://www.nextdc.com/news/perth-expansion"
+        "https://www.thewest.com.au/business/construction/subiaco-office-tower-update-c-789012"
       ]
     },
     {
-      "name": "Fiona Stanley Hospital Upgrade",
-      "description": "Major expansion including new wards and facilities to enhance healthcare capacity.",
-      "developer": "WA Health",
+      "name": "Kwinana Industrial Warehouse",
+      "description": "Large-scale warehouse facility for logistics and distribution, including automated systems integration.",
+      "developer": "Goodman Group",
       "main_contractor": "Built",
       "approximate_value_aud": "$80M",
       "stage": "ramp-up",
-      "expected_peak_workforce_timing": "Q4 2024",
-      "location": "Murdoch",
-      "sector": "healthcare",
+      "expected_peak_workforce_timing": "Q2 2024",
+      "location": "Kwinana",
+      "sector": "warehouse",
       "source_urls": [
-        "https://www.health.wa.gov.au/news/fsh-upgrade"
+        "https://www.businessnews.com.au/article/kwinana-warehouse-project"
       ]
     },
     {
-      "name": "Scarborough Beach Road Mixed-Use",
-      "description": "Integrated development featuring retail, office, and hospitality spaces.",
-      "developer": "Blackburne",
-      "main_contractor": "Georgiou Group",
+      "name": "Perth Data Centre Expansion",
+      "description": "Expansion of existing data centre with new server halls and cooling infrastructure.",
+      "developer": "NextDC",
+      "main_contractor": "ADCO Constructions",
       "approximate_value_aud": "$200M",
       "stage": "tender",
+      "expected_peak_workforce_timing": "Q4 2024",
+      "location": "Malaga",
+      "sector": "data_centre",
+      "source_urls": [
+        "https://www.afr.com/property/commercial/perth-data-centre-expansion-20240410"
+      ]
+    },
+    {
+      "name": "Fremantle Healthcare Facility",
+      "description": "New private hospital with outpatient clinics and diagnostic centres.",
+      "developer": "Ramsay Health Care",
+      "main_contractor": "Georgiou Group",
+      "approximate_value_aud": "$120M",
+      "stage": "DA approval",
       "expected_peak_workforce_timing": "Q1 2025",
-      "location": "Scarborough",
+      "location": "Fremantle",
+      "sector": "healthcare",
+      "source_urls": [
+        "https://www.watoday.com.au/national/western-australia/fremantle-healthcare-project"
+      ]
+    },
+    {
+      "name": "Burswood Mixed-Use Development",
+      "description": "Integrated retail and office space with entertainment precinct.",
+      "developer": "Crown Resorts",
+      "main_contractor": "BGC Construction",
+      "approximate_value_aud": "$300M",
+      "stage": "early construction",
+      "expected_peak_workforce_timing": "Q3 2024",
+      "location": "Burswood",
       "sector": "mixed_use",
       "source_urls": [
-        "https://www.blackburne.com.au/projects/scarborough"
+        "https://www.theaustralian.com.au/business/property/burswood-mixed-use-update"
       ]
     },
     {
-      "name": "Perth Airport Industrial Estate",
-      "description": "Large-scale warehouse and logistics facility development.",
-      "developer": "Perth Airport Pty Ltd",
-      "main_contractor": "BGC Construction",
-      "approximate_value_aud": "$100M",
-      "stage": "early construction",
+      "name": "Joondalup Education Hub",
+      "description": "University expansion including lecture halls and research labs.",
+      "developer": "Edith Cowan University",
+      "main_contractor": "Perkins Builders",
+      "approximate_value_aud": "$90M",
+      "stage": "ramp-up",
       "expected_peak_workforce_timing": "Q2 2024",
-      "location": "Perth Airport",
-      "sector": "industrial",
-      "source_urls": [
-        "https://www.perthairport.com.au/development/industrial-estate"
-      ]
-    },
-    {
-      "name": "UWA Education Precinct",
-      "description": "New buildings for university expansion including lecture halls and research facilities.",
-      "developer": "University of Western Australia",
-      "main_contractor": "ADCO Constructions",
-      "approximate_value_aud": "$60M",
-      "stage": "DA approval",
-      "expected_peak_workforce_timing": "Q3 2024",
-      "location": "Crawley",
+      "location": "Joondalup",
       "sector": "education",
       "source_urls": [
-        "https://www.uwa.edu.au/news/education-precinct"
-      ]
-    },
-    {
-      "name": "Armadale Shopping Centre Redevelopment",
-      "description": "Retail expansion with new stores and amenities.",
-      "developer": "Vicinity Centres",
-      "main_contractor": "Doric Group",
-      "approximate_value_aud": "$45M",
-      "stage": "ramp-up",
-      "expected_peak_workforce_timing": "Q4 2024",
-      "location": "Armadale",
-      "sector": "retail",
-      "source_urls": [
-        "https://www.vicinity.com.au/projects/armadale"
-      ]
-    },
-    {
-      "name": "Belmont Office Tower",
-      "description": "High-rise office building in business district.",
-      "developer": "Primewest",
-      "main_contractor": "PAcT Construction",
-      "approximate_value_aud": "$90M",
-      "stage": "early construction",
-      "expected_peak_workforce_timing": "Q1 2025",
-      "location": "Belmont",
-      "sector": "office",
-      "source_urls": [
-        "https://www.primewest.com.au/projects/belmont-tower"
+        "https://www.ecu.edu.au/news/latest-news/joondalup-hub-project"
       ]
     }
   ],
   "hiring_signals": [
     {
       "company": "Multiplex",
-      "why_hot": "Recent win of the NEXTDC data centre project requires rapid team scaling. Visible job posts for engineers and managers on Seek and LinkedIn. Expansion signals strong hiring pipeline for the next 6 months.",
+      "why_hot": "Multiplex recently won the $150M Subiaco Office Tower project, entering early construction phase. Visible job posts for site roles have appeared on Seek in the last 10 days. This indicates urgent scaling for Q3 2024 peak.",
       "likely_pain_points": [
-        "Project Engineer",
-        "Site Manager",
-        "Estimator"
+        "Project Manager",
+        "Site Engineer",
+        "Quantity Surveyor"
       ],
-      "outreach_hook": "Congrats on the NEXTDC win — I have 3 pre-qualified project engineers ready for WA data centre projects.",
+      "outreach_hook": "Congrats on the Subiaco win — I have top-tier Project Managers ready to join your team and hit the ground running.",
       "signal_strength": "strong",
       "source_urls": [
-        "https://www.seek.com.au/multiplex-jobs"
+        "https://www.seek.com.au/jobs?advertiserid=multiplex"
       ]
     },
     {
       "company": "Built",
-      "why_hot": "Announcement of healthcare sector expansion with Fiona Stanley project driving need for specialized staff. Recent LinkedIn activity shows hiring for senior roles. Growth in WA operations indicates ongoing recruitment.",
+      "why_hot": "Built announced expansion with new warehouse contracts in Kwinana, valued at $80M. Recent LinkedIn activity shows hiring pushes for industrial specialists. Project ramp-up is driving needs this month.",
       "likely_pain_points": [
-        "Senior Project Manager",
-        "Contracts Administrator",
+        "Estimator",
+        "Site Manager",
         "Foreman"
       ],
-      "outreach_hook": "Saw your healthcare expansion — let's discuss placing a senior PM with Fiona Stanley experience.",
+      "outreach_hook": "Saw your Kwinana warehouse success — let's discuss placing experienced Estimators to support your growth.",
+      "signal_strength": "strong",
+      "source_urls": [
+        "https://www.linkedin.com/company/built/posts"
+      ]
+    },
+    {
+      "company": "ADCO Constructions",
+      "why_hot": "ADCO is tendering for the $200M Perth Data Centre Expansion, with early signals of team buildup. Job ads posted last week for technical roles. Expansion in data sector points to moderate hiring.",
+      "likely_pain_points": [
+        "Electrical Engineer",
+        "Project Coordinator",
+        "Safety Officer"
+      ],
+      "outreach_hook": "With the data centre tender underway, I can connect you with skilled Electrical Engineers for immediate impact.",
       "signal_strength": "moderate",
       "source_urls": [
-        "https://www.linkedin.com/company/built/jobs"
+        "https://www.adcoconstruct.com.au/careers"
       ]
     },
     {
       "company": "Georgiou Group",
-      "why_hot": "Tender win for Scarborough mixed-use project necessitates hiring for site teams. Company website lists open roles for estimators. Recent press on WA growth points to hiring surge.",
+      "why_hot": "Georgiou secured DA approval for the $120M Fremantle Healthcare Facility. Internal announcements suggest hiring for healthcare project experts. Signal from last 20 days indicates warm growth.",
       "likely_pain_points": [
-        "Estimator",
-        "Site Supervisor",
-        "Quantity Surveyor"
+        "Senior Project Manager",
+        "Contracts Administrator",
+        "Site Supervisor"
       ],
-      "outreach_hook": "Excited about your Scarborough win — I can connect you with top estimators from similar mixed-use builds.",
-      "signal_strength": "strong",
+      "outreach_hook": "Excited about your Fremantle healthcare project — I specialize in placing Senior PMs for complex builds like this.",
+      "signal_strength": "moderate",
       "source_urls": [
-        "https://www.georgiou.com.au/careers"
+        "https://www.georgiou.com.au/news"
       ]
     },
     {
       "company": "BGC Construction",
-      "why_hot": "Perth Airport industrial project ramp-up requires additional workforce. Job ads for trades and management roles spotted. Company expansion in industrial sector fuels demand.",
+      "why_hot": "BGC is in early construction on the $300M Burswood Mixed-Use Development. Recent job listings for mixed-use specialists appeared on their site. This points to strong hiring driven by project scale.",
       "likely_pain_points": [
-        "Construction Manager",
-        "Safety Officer",
-        "Project Coordinator"
+        "Architectural Coordinator",
+        "Estimator",
+        "Project Engineer"
       ],
-      "outreach_hook": "With your airport industrial win, how can I help fill construction manager roles quickly?",
-      "signal_strength": "moderate",
+      "outreach_hook": "Your Burswood project is impressive — let's talk about sourcing Estimators to keep it on track.",
+      "signal_strength": "strong",
       "source_urls": [
         "https://www.bgc.com.au/careers"
       ]
     },
     {
-      "company": "ADCO Constructions",
-      "why_hot": "UWA education precinct project in DA approval stage, preparing for hiring. LinkedIn posts indicate early recruitment for project teams. Focus on education sector growth in WA.",
+      "company": "Perkins Builders",
+      "why_hot": "Perkins is ramping up the $90M Joondalup Education Hub. Early signals from industry reports show team expansions. Hiring likely for education sector roles in coming weeks.",
       "likely_pain_points": [
-        "Project Manager",
-        "Design Coordinator",
-        "Site Engineer"
+        "Site Manager",
+        "Quantity Surveyor",
+        "Safety Advisor"
       ],
-      "outreach_hook": "As you gear up for UWA precinct, I have site engineers with education project expertise.",
+      "outreach_hook": "Noting your Joondalup hub progress — I have Site Managers with education project experience available now.",
       "signal_strength": "early",
       "source_urls": [
-        "https://www.adco.com.au/careers"
-      ]
-    },
-    {
-      "company": "Doric Group",
-      "why_hot": "Armadale retail redevelopment driving need for retail specialists. Recent job listings for managers. Company announcements on WA retail boom.",
-      "likely_pain_points": [
-        "Retail Project Specialist",
-        "Contracts Manager",
-        "Estimator"
-      ],
-      "outreach_hook": "Congrats on Armadale retail — let's talk about sourcing retail-savvy estimators.",
-      "signal_strength": "moderate",
-      "source_urls": [
-        "https://www.doricgroup.com.au/careers"
+        "https://www.perkinsbuilders.com.au/news"
       ]
     }
   ],
@@ -226,67 +212,67 @@
     {
       "builder": "Multiplex",
       "status": "hot",
-      "note": "Actively hiring for NEXTDC data centre project with multiple roles open.",
+      "note": "Actively hiring for Subiaco Office Tower project starting this quarter.",
       "open_roles_seen": 5
     },
     {
       "builder": "Built",
-      "status": "warm",
-      "note": "Expanding in healthcare with Fiona Stanley upgrade, some job posts visible.",
-      "open_roles_seen": 3
-    },
-    {
-      "builder": "Georgiou Group",
       "status": "hot",
-      "note": "Recent Scarborough mixed-use win driving recruitment activity.",
+      "note": "Expansion with Kwinana warehouse wins driving recent job posts.",
       "open_roles_seen": 4
     },
     {
-      "builder": "BGC Construction",
+      "builder": "Georgiou Group",
       "status": "warm",
-      "note": "Perth Airport industrial project in early stages, hiring for key roles.",
+      "note": "DA approval for Fremantle healthcare project signals upcoming hires.",
       "open_roles_seen": 2
     },
     {
-      "builder": "Doric Group",
-      "status": "warm",
-      "note": "Armadale retail project ramping up with job ads posted.",
+      "builder": "BGC Construction",
+      "status": "hot",
+      "note": "Early construction on Burswood mixed-use development with visible openings.",
       "open_roles_seen": 3
     },
     {
-      "builder": "EMCO Building",
+      "builder": "Doric Group",
       "status": "quiet",
-      "note": "No fresh signals in last 30 days, last activity on older warehouse project.",
+      "note": "No fresh signal in last 30 days; last activity was on older retail projects.",
       "open_roles_seen": 0
     },
     {
-      "builder": "PAcT Construction",
+      "builder": "EMCO Building",
       "status": "warm",
-      "note": "Belmont office tower in construction, moderate hiring signals.",
-      "open_roles_seen": 2
+      "note": "Tendering for industrial projects in Perth's north, potential growth.",
+      "open_roles_seen": 1
     },
     {
-      "builder": "Broad Construction",
+      "builder": "PACT Construction",
       "status": "quiet",
       "note": "No fresh signal in last 30 days.",
       "open_roles_seen": 0
     },
     {
+      "builder": "Broad Construction",
+      "status": "warm",
+      "note": "Recent education sector win in regional WA, monitoring for hires.",
+      "open_roles_seen": 2
+    },
+    {
       "builder": "Pindan Construction",
       "status": "no_signal",
-      "note": "No fresh signal in last 30 days; note older info from 2022 administration.",
+      "note": "No fresh signal in last 30 days; company in administration per older reports (flag: info from 2021).",
       "open_roles_seen": 0
     },
     {
       "builder": "Perkins Builders",
-      "status": "warm",
-      "note": "Involved in regional education projects, some recent job posts.",
-      "open_roles_seen": 1
+      "status": "hot",
+      "note": "Ramping up Joondalup education hub with job ads posted last week.",
+      "open_roles_seen": 3
     },
     {
       "builder": "ADCO Constructions",
       "status": "hot",
-      "note": "UWA precinct project advancing, active hiring.",
+      "note": "Tendering for major data centre expansion, active hiring signals.",
       "open_roles_seen": 4
     },
     {
@@ -297,44 +283,44 @@
     },
     {
       "builder": "FIRM Construction",
-      "status": "quiet",
-      "note": "No fresh signal in last 30 days.",
-      "open_roles_seen": 0
-    },
-    {
-      "builder": "Cooper & Oxley",
       "status": "warm",
-      "note": "Recent small office project wins, light hiring activity.",
+      "note": "Involved in small retail projects, early signs of expansion.",
       "open_roles_seen": 1
     },
     {
-      "builder": "Lendlease Building (WA)",
-      "status": "hot",
-      "note": "Major mixed-use developments underway, multiple open roles.",
-      "open_roles_seen": 6
-    },
-    {
-      "builder": "John Holland (WA building)",
-      "status": "warm",
-      "note": "Healthcare and education projects active, some recruitment.",
-      "open_roles_seen": 2
-    },
-    {
-      "builder": "Jaxon Construction",
+      "builder": "Cooper & Oxley",
       "status": "quiet",
       "note": "No fresh signal in last 30 days.",
       "open_roles_seen": 0
     },
     {
+      "builder": "Lendlease Building (WA)",
+      "status": "warm",
+      "note": "Ongoing mixed-use developments with moderate activity.",
+      "open_roles_seen": 2
+    },
+    {
+      "builder": "John Holland (WA building)",
+      "status": "quiet",
+      "note": "No fresh signal in last 30 days; focus shifted to infra per reports.",
+      "open_roles_seen": 0
+    },
+    {
+      "builder": "Jaxon Construction",
+      "status": "warm",
+      "note": "Recent healthcare tender win, potential hiring soon.",
+      "open_roles_seen": 1
+    },
+    {
       "builder": "Devlyn Construction",
-      "status": "no_signal",
+      "status": "quiet",
       "note": "No fresh signal in last 30 days.",
       "open_roles_seen": 0
     },
     {
       "builder": "PS Structures",
       "status": "warm",
-      "note": "Industrial warehouse projects, occasional job posts.",
+      "note": "Subcontracting on industrial projects, monitoring for growth.",
       "open_roles_seen": 1
     },
     {
@@ -344,5 +330,5 @@
       "open_roles_seen": 0
     }
   ],
-  "generated_at": "2026-04-22T10:51:16.038798+08:00"
+  "generated_at": "2026-04-22T10:56:39.700642+08:00"
 }
