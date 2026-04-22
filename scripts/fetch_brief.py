@@ -7,7 +7,9 @@ Required env vars:
   XAI_API_KEY   — your xAI API key (set as a GitHub Actions secret)
 
 Optional env vars:
-  XAI_MODEL     — defaults to "grok-4-latest". Override if xAI renames models.
+  XAI_MODEL       — defaults to "grok-4-latest". Override if xAI renames models.
+  XAI_TOOLS_JSON  — override the tools array if xAI renames tool types.
+                    e.g. set repo variable to '[{"type":"web_search_preview"}]'
 """
 
 import os
@@ -41,30 +43,7 @@ def load_prompt() -> str:
     return template.replace("{{WATCHLIST}}", rendered).replace("YYYY-MM-DD", today)
 
 
-def call_grok(prompt: str) -> dict:
-    if not XAI_API_KEY:
-        raise SystemExit("XAI_API_KEY env var is not set. Add it as a GitHub Actions secret.")
-
-    payload = {
-        "model": XAI_MODEL,
-        "messages": [
-            {"role": "system", "content": "You are a precise data-returning assistant. Always return valid JSON exactly matching the requested schema. No prose."},
-            {"role": "user", "content": prompt},
-        ],
-        # xAI live search — pulls fresh web + news + X data into the response
-        "search_parameters": {
-            "mode": "on",
-            "return_citations": True,
-            "sources": [
-                {"type": "web"},
-                {"type": "news"},
-                {"type": "x"}
-            ]
-        },
-        "response_format": {"type": "json_object"},
-        "temperature": 0.2,
-    }
-
+def _post(payload: dict) -> dict:
     resp = requests.post(
         XAI_ENDPOINT,
         headers={
@@ -74,11 +53,53 @@ def call_grok(prompt: str) -> dict:
         json=payload,
         timeout=180,
     )
-    resp.raise_for_status()
-    body = resp.json()
+    if resp.status_code >= 400:
+        raise requests.HTTPError(f"{resp.status_code} {resp.reason}: {resp.text}", response=resp)
+    return resp.json()
+
+
+def call_grok(prompt: str) -> dict:
+    if not XAI_API_KEY:
+        raise SystemExit("XAI_API_KEY env var is not set. Add it as a GitHub Actions secret.")
+
+    base_payload = {
+        "model": XAI_MODEL,
+        "messages": [
+            {"role": "system", "content": "You are a precise data-returning assistant. Always return valid JSON exactly matching the requested schema. No prose."},
+            {"role": "user", "content": prompt},
+        ],
+        "response_format": {"type": "json_object"},
+        "temperature": 0.2,
+    }
+
+    # xAI's new Agent Tools API replaces the old search_parameters block.
+    # Server-side built-in tools — no callback loop required.
+    tools_override = os.environ.get("XAI_TOOLS_JSON")
+    if tools_override:
+        tools = json.loads(tools_override)
+    else:
+        tools = [{"type": "web_search"}, {"type": "x_search"}, {"type": "news_search"}]
+
+    body = None
+    last_err = None
+    # Try in order: full tools list → web_search only → no tools (training data only).
+    for attempt_tools in (tools, [{"type": "web_search"}], None):
+        payload = dict(base_payload)
+        if attempt_tools is not None:
+            payload["tools"] = attempt_tools
+        try:
+            body = _post(payload)
+            print(f"OK with tools={attempt_tools}", flush=True)
+            break
+        except requests.HTTPError as e:
+            last_err = e
+            print(f"Attempt failed (tools={attempt_tools}): {e}", flush=True)
+            continue
+
+    if body is None:
+        raise last_err or RuntimeError("All Grok attempts failed.")
 
     content = body["choices"][0]["message"]["content"]
-    # Some models occasionally wrap JSON in ```json fences despite response_format.
     content = re.sub(r"^```(?:json)?\s*|\s*```$", "", content.strip(), flags=re.MULTILINE)
     return json.loads(content)
 
@@ -94,7 +115,6 @@ def save(brief: dict) -> str:
     (DATA_DIR / "latest.json").write_text(json.dumps(brief, indent=2, ensure_ascii=False))
     (HISTORY_DIR / f"{today}.json").write_text(json.dumps(brief, indent=2, ensure_ascii=False))
 
-    # Rebuild history index
     dates = sorted(
         [Path(f).stem for f in glob.glob(str(HISTORY_DIR / "*.json"))],
         reverse=True,
