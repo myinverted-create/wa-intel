@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-24T06:35:16.377291+08:00",
+  "fetched_at": "2026-04-27T06:28:11.387639+08:00",
   "source": "https://www.tenders.wa.gov.au/watenders/tender/list.do?action=current-tender-list",
   "tenders": [],
   "error": "HTTPError: 404 Client Error: 404 for url: https://www.tenders.wa.gov.au/watenders/tender/list.do?action=current-tender-list"
